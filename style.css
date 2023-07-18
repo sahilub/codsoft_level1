@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(2, 2, 64);
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(0, 0, 44); 
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin:  23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(175, 175, 250);
+}
+
+
+nav .left{
+    font-size : 1.5rem;
+}
+
+main .firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+main .firstsec > DIV{
+    width: 30%;
+}
+
+.leftsection{
+   font-size: 2.5rem ;
+   margin: 90px 0;
+}
+.pup{
+    color:rgb(164, 67, 255);
+}
+
+.rightsection img{
+    width: 100%;
+    margin: 75px 0
+}
+
+.secondsection{
+    max-width: 100vm;
+    margin-left: 10%;
+    height: 80vh;
+    padding-right: 100px;
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(76, 44, 170);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.side-hr{
+    border: 0;
+    background-color: rgb(76, 44, 170);
+    height: 1.2px;
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.secondsection .box {
+    background-color:  rgb(2, 2, 64);
+    margin-right: 10%;
+    width: 80vm;
+    height: 2px;
+    margin-top: 30px ;
+    
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  .footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .past-work {
+    background-color: rgb(2, 2, 64);
+    padding: 20px;
+  }
+  
+  .past-work h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .past-work p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .past-work img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .past-work a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .past-work a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-section {
+    background-color: rgb(2, 2, 64);
+    padding: 20px;
+  }
+  
+  .contact-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .contact-section form {
+    margin-top: 10px;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section input[type="submit"] {
+    background-color: #888;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-section input[type="submit"]:hover {
+    background-color: #555;
+  }
